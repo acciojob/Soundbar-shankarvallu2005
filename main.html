@@ -1,50 +1,23 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		*{
-			box-sizing: border-box;
-		}
-		.container{
-			display : flex;
-			justify-content : center;
-			align-items: center;
-			gap : 10px
-		}
-		.btn{
-			background-color : #371d61;
-			color: white;
-			padding : 10px;
-			border : 0 ;
-			border-radius : 2px;
-		}
-		.stop{
-			background-color : #371d61;
-			color: white;
-			padding : 10px 30px;
-			border : 0 ;
-			border-radius : 2px;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Board</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<div class="container">
-		<button class="btn" id="btn1">applause</button>
-		<button class="btn" id="btn2">boo</button>
-		<button class="btn" id="btn3">gasp</button>
-		<button class="btn" id="btn4">tada</button>
-		<button class="btn" id="btn5">victory</button>
-		<button class="btn" id="btn6">wrong</button>
-		<button class="stop" id="btn7">stop</button>
-	</div>
-    <script type="text/javascript" src="./script.js">
-</script>
 
+    <div id="buttons">
+        <button class="btn">applause</button>
+        <button class="btn">boo</button>
+        <button class="btn">gasp</button>
+        <button class="btn">tada</button>
+        <button class="btn">victory</button>
+        <button class="btn">wrong</button>
+        <button class="stop">Stop</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
